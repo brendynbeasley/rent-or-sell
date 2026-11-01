@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+
+# Secrets (none are used, kept out by habit)
+*.key
+*_key*.txt
+.env
+
+# Large raw downloads would go here; every input used is small and committed
+data/raw/*.part

@@ -1,0 +1,4 @@
+group,industries,rents_bn_per_year,rent_share_pooled,rent_share_high_cr4,rent_share_low_cr4,industries_high_cr4,industries_low_cr4,median_industry_rent_share,receipts_bn_per_year,pct_of_manufacturing_rents,pct_of_manufacturing_receipts
+Durable final goods,21,19.9283,0.6728,0.8641,0.1673,12,11,0.1060,2941.9649,86.8037,37.2982
+Durable materials and parts,14,0.3784,0.0316,0.0254,0.0364,7,9,0.0259,1196.1680,1.6484,15.1650
+Nondurable goods,28,2.6511,0.0707,0.0800,0.0371,17,13,0.0344,3749.5575,11.5479,47.5368

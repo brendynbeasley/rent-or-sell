@@ -1,0 +1,15 @@
+cut,spec,term,coef,se,p,ci_low,ci_high,n_obs,n_industries
+$2.5 billion+,"gap on group, year effects",Intercept,0.12327,0.11382,0.27878,-0.099806,0.34635,130,49
+$2.5 billion+,"gap on group, year effects","C(group, Treatment('nondur'))[T.final]",0.9308,0.53763,0.083399,-0.12294,1.9845,130,49
+$2.5 billion+,"gap on group, year effects","C(group, Treatment('nondur'))[T.parts]",-0.10861,0.11174,0.3311,-0.32762,0.11041,130,49
+$2.5 billion+,"gap on group, year effects","mean gap, durable final goods",1.0541,0.52523,0.044763,0.024641,2.0835,130,49
+$2.5 billion+,"Wilcoxon signed-rank, TY2013",Durable final goods,0.011224,,0.15938,,,17,17
+$2.5 billion+,"Wilcoxon signed-rank, TY2013",Nondurable goods,-0.00064363,,0.67422,,,20,20
+$2.5 billion+,"Wilcoxon signed-rank, TY2013",Durable materials and parts,-0.0066222,,0.94531,,,8,8
+$500 million+,"gap on group, year effects",Intercept,0.075849,0.054783,0.16619,-0.031523,0.18322,138,54
+$500 million+,"gap on group, year effects","C(group, Treatment('nondur'))[T.final]",0.91237,0.46736,0.050916,-0.0036327,1.8284,138,54
+$500 million+,"gap on group, year effects","C(group, Treatment('nondur'))[T.parts]",-0.064953,0.052351,0.21471,-0.16756,0.037653,138,54
+$500 million+,"gap on group, year effects","mean gap, durable final goods",0.98822,0.46323,0.032897,0.080312,1.8961,138,54
+$500 million+,"Wilcoxon signed-rank, TY2013",Durable final goods,0.086286,,0.0066528,,,17,17
+$500 million+,"Wilcoxon signed-rank, TY2013",Nondurable goods,-0.0013831,,0.33766,,,21,21
+$500 million+,"Wilcoxon signed-rank, TY2013",Durable materials and parts,0.014448,,0.35938,,,9,9

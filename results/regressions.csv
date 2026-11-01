@@ -1,0 +1,30 @@
+spec,term,coef,se,p,ci_low,ci_high,n_obs,n_industries,r2
+main_levels,"C(group, Treatment('nondur'))[T.final]",0.16623,0.19225,0.38722,-0.21058,0.54304,350,63,0.16987
+main_levels,"C(group, Treatment('nondur'))[T.parts]",0.10164,0.062753,0.10531,-0.021356,0.22463,350,63,0.16987
+main_levels,cr4,0.0015338,0.0027258,0.57363,-0.0038086,0.0068763,350,63,0.16987
+main_levels,"cr4:C(group, Treatment('nondur'))[T.final]",0.0014817,0.0053459,0.78166,-0.0089962,0.01196,350,63,0.16987
+main_levels,"cr4:C(group, Treatment('nondur'))[T.parts]",-0.0028469,0.0017936,0.11246,-0.0063622,0.00066849,350,63,0.16987
+main_levels,np.log(receipts_per_return),0.023843,0.027328,0.38296,-0.02972,0.077405,350,63,0.16987
+main_levels,"cr4 slope, durable final goods (sum)",0.0030155,0.0050024,0.54663,-0.006789,0.01282,350,63,0.16987
+main_logs,"C(group, Treatment('nondur'))[T.final]",1.5726,0.96081,0.10169,-0.31056,3.4558,344,62,0.10096
+main_logs,"C(group, Treatment('nondur'))[T.parts]",1.1117,0.57804,0.054452,-0.021237,2.2446,344,62,0.10096
+main_logs,cr4,0.02207,0.015428,0.15256,-0.0081675,0.052308,344,62,0.10096
+main_logs,"cr4:C(group, Treatment('nondur'))[T.final]",-0.021372,0.02291,0.35088,-0.066275,0.02353,344,62,0.10096
+main_logs,"cr4:C(group, Treatment('nondur'))[T.parts]",-0.032909,0.015471,0.033408,-0.063231,-0.0025865,344,62,0.10096
+main_logs,np.log(receipts_per_return),0.088778,0.096216,0.35616,-0.099801,0.27736,344,62,0.10096
+census_durable_split,durable_census[T.True],0.050909,0.1378,0.7118,-0.21918,0.321,350,63,0.094841
+census_durable_split,cr4,0.0012805,0.0028739,0.6559,-0.0043521,0.0069132,350,63,0.094841
+census_durable_split,cr4:durable_census[T.True],0.0022501,0.0043538,0.60528,-0.0062831,0.010783,350,63,0.094841
+census_durable_split,np.log(receipts_per_return),0.027413,0.029484,0.3525,-0.030375,0.085201,350,63,0.094841
+final_goods_only,cr4,-0.0067165,0.0083905,0.42343,-0.023162,0.0097285,121,21,0.13405
+final_goods_only,np.log(receipts_per_return),0.20649,0.14256,0.14748,-0.072915,0.4859,121,21,0.13405
+final_goods_hhi,I(hhi / 100),-0.015865,0.012544,0.20596,-0.04045,0.0087205,118,21,0.13938
+final_goods_hhi,np.log(receipts_per_return),0.18889,0.10427,0.070074,-0.015488,0.39326,118,21,0.13938
+final_goods_no_vehicles,cr4,-0.001101,0.007285,0.87987,-0.015379,0.013177,115,20,0.034621
+final_goods_no_vehicles,np.log(receipts_per_return),0.06235,0.081495,0.44422,-0.097376,0.22208,115,20,0.034621
+nondurables_only,cr4,0.0039299,0.0014728,0.0076234,0.0010433,0.0068166,149,28,0.19206
+nondurables_only,np.log(receipts_per_return),-0.009417,0.0071192,0.18591,-0.02337,0.0045363,149,28,0.19206
+durable_vs_nondurable_level,"C(group, Treatment('nondur'))[T.final]",0.23305,0.10079,0.020772,0.035493,0.4306,350,63,0.16155
+durable_vs_nondurable_level,"C(group, Treatment('nondur'))[T.parts]",-0.0010816,0.026792,0.9678,-0.053593,0.05143,350,63,0.16155
+durable_vs_nondurable_level,np.log(receipts_per_return),0.032781,0.023187,0.15742,-0.012664,0.078227,350,63,0.16155
+final_goods_receipt_weighted,cr4,-0.031625,0.012348,0.010436,-0.055827,-0.0074225,121,21,0.48871
